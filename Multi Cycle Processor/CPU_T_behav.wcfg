@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="CPU_T_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="CPU_T" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000 ns"></ZoomStartTime>
+      <ZoomEndTime time="241.401 ns"></ZoomEndTime>
+      <Cursor1Time time="0.000 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="404"></NameColumnWidth>
+      <ValueColumnWidth column_width="190"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="30" />
+   <wvobject fp_name="/CPU_T/CLK" type="logic">
+      <obj_property name="ElementShortName">CLK</obj_property>
+      <obj_property name="ObjectShortName">CLK</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_T/myCPU/myDataMem/data_address" type="array">
+      <obj_property name="ElementShortName">data_address[14:0]</obj_property>
+      <obj_property name="ObjectShortName">data_address[14:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_T/myCPU/myDataMem/write_en" type="logic">
+      <obj_property name="ElementShortName">write_en</obj_property>
+      <obj_property name="ObjectShortName">write_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_T/myCPU/myDataMem/write_data" type="array">
+      <obj_property name="ElementShortName">write_data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">write_data[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_T/myCPU/myDataMem/read_data" type="array">
+      <obj_property name="ElementShortName">read_data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">read_data[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_T/myCPU/myDataMem/i" type="array">
+      <obj_property name="ElementShortName">i[31:0]</obj_property>
+      <obj_property name="ObjectShortName">i[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_T/myCPU/myDataMem/ram" type="array">
+      <obj_property name="ElementShortName">ram[255:0][31:0]</obj_property>
+      <obj_property name="ObjectShortName">ram[255:0][31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_T/myCPU/myInstMem/inst_address" type="array">
+      <obj_property name="ElementShortName">inst_address[14:0]</obj_property>
+      <obj_property name="ObjectShortName">inst_address[14:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_T/myCPU/myInstMem/read_data" type="array">
+      <obj_property name="ElementShortName">read_data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">read_data[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_T/myCPU/myInstMem/ram" type="array">
+      <obj_property name="ElementShortName">ram[255:0][31:0]</obj_property>
+      <obj_property name="ObjectShortName">ram[255:0][31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_T/myCPU/myRegFile/read_address_0" type="array">
+      <obj_property name="ElementShortName">read_address_0[4:0]</obj_property>
+      <obj_property name="ObjectShortName">read_address_0[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_T/myCPU/myRegFile/read_address_1" type="array">
+      <obj_property name="ElementShortName">read_address_1[4:0]</obj_property>
+      <obj_property name="ObjectShortName">read_address_1[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_T/myCPU/myRegFile/write_address_0" type="array">
+      <obj_property name="ElementShortName">write_address_0[4:0]</obj_property>
+      <obj_property name="ObjectShortName">write_address_0[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_T/myCPU/myRegFile/write_en" type="logic">
+      <obj_property name="ElementShortName">write_en</obj_property>
+      <obj_property name="ObjectShortName">write_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_T/myCPU/myRegFile/write_data" type="array">
+      <obj_property name="ElementShortName">write_data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">write_data[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_T/myCPU/myRegFile/read_data_0" type="array">
+      <obj_property name="ElementShortName">read_data_0[31:0]</obj_property>
+      <obj_property name="ObjectShortName">read_data_0[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_T/myCPU/myRegFile/read_data_1" type="array">
+      <obj_property name="ElementShortName">read_data_1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">read_data_1[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_T/myCPU/myRegFile/ram" type="array">
+      <obj_property name="ElementShortName">ram[255:0][31:0]</obj_property>
+      <obj_property name="ObjectShortName">ram[255:0][31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_T/myCPU/myRegFile/i" type="array">
+      <obj_property name="ElementShortName">i[31:0]</obj_property>
+      <obj_property name="ObjectShortName">i[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_T/myCPU/myDecoder/inst" type="array">
+      <obj_property name="ElementShortName">inst[31:0]</obj_property>
+      <obj_property name="ObjectShortName">inst[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_T/myCPU/myDecoder/opcode" type="array">
+      <obj_property name="ElementShortName">opcode[2:0]</obj_property>
+      <obj_property name="ObjectShortName">opcode[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_T/myCPU/myDecoder/reg_addr_0" type="array">
+      <obj_property name="ElementShortName">reg_addr_0[4:0]</obj_property>
+      <obj_property name="ObjectShortName">reg_addr_0[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_T/myCPU/myDecoder/reg_addr_1" type="array">
+      <obj_property name="ElementShortName">reg_addr_1[4:0]</obj_property>
+      <obj_property name="ObjectShortName">reg_addr_1[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_T/myCPU/myDecoder/reg_addr_2" type="array">
+      <obj_property name="ElementShortName">reg_addr_2[4:0]</obj_property>
+      <obj_property name="ObjectShortName">reg_addr_2[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_T/myCPU/myDecoder/addr" type="array">
+      <obj_property name="ElementShortName">addr[14:0]</obj_property>
+      <obj_property name="ObjectShortName">addr[14:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_T/myCPU/myALU/ip_0" type="array">
+      <obj_property name="ElementShortName">ip_0[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ip_0[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_T/myCPU/myALU/ip_1" type="array">
+      <obj_property name="ElementShortName">ip_1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ip_1[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_T/myCPU/myALU/opcode" type="array">
+      <obj_property name="ElementShortName">opcode[2:0]</obj_property>
+      <obj_property name="ObjectShortName">opcode[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_T/myCPU/myALU/op_0" type="array">
+      <obj_property name="ElementShortName">op_0[31:0]</obj_property>
+      <obj_property name="ObjectShortName">op_0[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_T/myCPU/myALU/change_pc" type="logic">
+      <obj_property name="ElementShortName">change_pc</obj_property>
+      <obj_property name="ObjectShortName">change_pc</obj_property>
+   </wvobject>
+</wave_config>
